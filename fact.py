@@ -11,6 +11,9 @@ if len(sys.argv) != 2:
 #recuperation du parametre
 nParam = int(sys.argv[1])
 
+##################################
+# calcul de factorielle de x 
+##################################
 def fact( x ):
    nRes = 1
    i=2
