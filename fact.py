@@ -11,12 +11,16 @@ if len(sys.argv) != 2:
 
 #recuperation du parametre
 nParam = int(sys.argv[1])
-nRes = 1
-i=2
-#calcul de !nParam
-while (i <= nParam):
-    nRes = nRes*i
-    i    = i + 1
+
+def fact( x ):
+   nRes = 1
+   i=2
+   #calcul de !nParam
+   while (i <= nParam):
+      nRes = nRes*i
+      i    = i + 1
+   return nRes
 
 #affichage du resultat
+nRes = fact( nParam )
 print("factorielle(%d) = %d " % (nParam, nRes) )
