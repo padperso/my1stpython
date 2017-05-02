@@ -3,8 +3,7 @@
 
 import sys
 
-
-#print("NB arg : %d " % len(sys.argv)) 
+# test du format de la ligne de commande
 if len(sys.argv) != 2:
     print("usage : %s <n> " % sys.argv[0] )
     sys.exit(1)
