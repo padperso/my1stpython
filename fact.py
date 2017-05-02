@@ -5,7 +5,8 @@ import sys
 
 # test du format de la ligne de commande
 if len(sys.argv) != 2:
-    print("usage : %s <n> " % sys.argv[0] )
+    sNomExe = sys.argv[0]
+    print("usage : %s <n> " % sNomExe )
     sys.exit(1)
 
 #recuperation du parametre
